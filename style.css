@@ -1,0 +1,210 @@
+:root {
+    --banner-header-textsize: 60px;
+    --main-redapple-color: #f05812;
+}
+
+@media screen and (max-width: 1400px) {
+    #infoblock-text h1 {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    #infoblock-text {
+        flex-basis: 85% !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #videotext {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bannerheader, #banner h2 span.invisible {
+        font-size: 40px !important;
+    }
+
+    #bestchoice {
+        font-size: 50px !important;
+    }
+
+    #banner h2 {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bannerheader, #banner h2 span.invisible {
+        font-size: 20px !important;
+    }
+
+    #bestchoice {
+        font-size: 30px !important;
+    }
+
+    #banner h2 {
+        font-size: 7px !important;
+    }
+
+    #vid-div iframe {
+        --vid-width: 500px !important;
+        width: var(--vid-width) !important;
+        height: calc(var(--vid-width)*685/1217) !important; /* x/750 = 685/1217 (orig size) */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card-infoboxes .card {
+        width: 16rem !important;
+        font-size: 12px !important;
+    }
+
+    #infoblock-text p, #videotext p {
+        font-size: 14px !important;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+
+    #vid-div iframe {
+        --vid-width: 300px !important;
+        width: var(--vid-width) !important;
+        height: calc(var(--vid-width)*685/1217) !important; /* x/750 = 685/1217 (orig size) */
+    }
+
+    #videotext {
+        margin-top: 25px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bannerheader, #banner h2 span.invisible {
+        font-size: 10px !important;
+    }
+
+    #bestchoice {
+        font-size: 20px !important;
+    }
+
+    #banner h2 {
+        font-size: 5px !important;
+    }
+
+    .card-infoboxes .card {
+        width: 14rem !important
+    }
+}
+
+.wrapper {
+    background-image: linear-gradient(to right, #3d444e, #4d595e, #636e6d, #7c827f, #969794);
+    margin: 0 auto;
+    width: 100%;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner h1 {
+    top: 25%;
+    font-size: var(--banner-header-textsize);
+    font-family: 'PT Sans', sans-serif;
+}
+
+#bestchoice {
+    color: var(--main-redapple-color);
+    font-size: 80px;
+    opacity: 1;
+    text-shadow: 0 0 6px;
+}
+
+.bannerheader {
+    position: absolute;
+    color: #d5cfcf;
+    opacity: 0.85;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#banner h2 {
+    top: 5%;
+    font-size: 20px;
+    color: #b3b3b3e3;
+}
+
+#banner h2 span.invisible {
+    /* hidden visibility already written in bootstrap */
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: var(--banner-header-textsize);
+}
+
+#underline-this {
+    border-bottom: 1px solid var(--main-redapple-color);
+}
+
+#infoblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#infoblock-text {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infoblock-text p {
+    font-size: 25px;
+}
+
+#infoblock-text h1 {
+    margin-bottom: 40px;
+    text-align: right;
+    width:75%;
+}
+
+#mainvideo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#vid-div iframe {
+    --vid-width: 750px;
+    width: var(--vid-width);
+    height: calc(var(--vid-width)*685/1217); /* x/750 = 685/1217 (orig size) */
+}
+
+.redcolored-hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(90deg, transparent, var(--main-redapple-color), transparent);
+    opacity: 1;
+    margin-bottom: 46px;
+}
+
+#videotext h1 {
+    font-size: 60px;
+}
+
+#videotext p {
+    color: #fff;
+    font-size: 25px;
+}
