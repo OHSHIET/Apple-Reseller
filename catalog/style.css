@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    #catalog-header {
+        width: 95% !important;
+    }
+}
+
+#catalog-header {
+    margin: 46px auto;
+    text-align: center;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-price {
+    margin: 0;
+}
+
+#card-infoboxes-catalogpage {
+    margin-bottom: 60px;
+}

@@ -1,0 +1,105 @@
+@media screen and (max-width: 1000px) {
+    #shop-text {
+        width: 75% !important;
+        margin-top: 30px !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        align-content: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .shop-paragraph {
+        margin-bottom: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper {
+        width: 300px !important;
+        height: 150px !important;
+    }
+
+    .swiper-slide img {
+        width: 300px !important;
+        height: 150px !important;
+    }
+
+    #shop-header {
+        font-size: 45px !important;
+    }
+
+    h2.product-price {
+        font-size: 35px !important;
+    }
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#shop-header {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 65px;
+}
+
+#shop-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+}
+
+.product-price {
+    font-size: 50px;
+}
+
+#pricing {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.shop-paragraph {
+    font-size: 20px;
+}
+
+#buy {
+    display: inline-block;
+    margin-left: 30px;
+    width: 5rem;
+    box-shadow: 0 0 6px #000;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+h1.modal-title {
+    color: #000;
+    text-shadow: none;
+}
+
+#purchase-complete {
+    display: none;
+}

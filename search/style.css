@@ -1,0 +1,12 @@
+#search-results {
+    margin: 35px 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search-items {
+    margin: 20px 35px;
+    font-size: 20px;
+}
