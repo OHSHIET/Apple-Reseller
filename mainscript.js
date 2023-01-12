@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('header nav.navbar form[role="search"]').submit(function (event) {
         let searchBoxVal = $('header nav.navbar form[role="search"] > input[type="search"]').val().replace(' ', '-');
         if (!searchBoxVal) return event.preventDefault();
-        window.location.replace(`..${(window.location.href.endsWith('index.html') || window.location.href.endsWith('Apple-Reseller')) ? '/Apple-Reseller' : ''}/search/search.html?query=${searchBoxVal}`);
+        window.location.replace(`..${(window.location.href.endsWith('index.html') || window.location.href.endsWith('Apple-Reseller/')) ? '/Apple-Reseller' : ''}/search/search.html?query=${searchBoxVal}`);
         event.preventDefault();
     })
 
