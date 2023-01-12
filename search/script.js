@@ -1,6 +1,6 @@
 'use strict';
 
-let pages = ['../catalog/IPad-Catalog.html', '../catalog/IPhone-Catalog.html', '../catalog/Macbook-Catalog.html', '../about/About.html', '../home/Index.html', '../products/IPad-Air.html', '../products/IPad-Mini.html', '../products/IPad-Pro.html', '../products/IPad.html', '../products/IPhone-14-Pro.html', '../products/IPhone-14.html', '../products/IPhone-SE.html', '../products/Macbook-Air.html', '../products/Macbook-Pro.html'];
+let pages = ['../catalog/IPad-Catalog.html', '../catalog/IPhone-Catalog.html', '../catalog/Macbook-Catalog.html', '../about/About.html', '../Index.html', '../products/IPad-Air.html', '../products/IPad-Mini.html', '../products/IPad-Pro.html', '../products/IPad.html', '../products/IPhone-14-Pro.html', '../products/IPhone-14.html', '../products/IPhone-SE.html', '../products/Macbook-Air.html', '../products/Macbook-Pro.html'];
 
 $(document).ready(function () {
     let query = $(location).attr('search');
