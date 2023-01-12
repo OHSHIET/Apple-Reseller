@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('header nav.navbar form[role="search"]').submit(function (event) {
         let searchBoxVal = $('header nav.navbar form[role="search"] > input[type="search"]').val().replace(' ', '-');
         if (!searchBoxVal) return event.preventDefault();
-        window.location.replace(`../search/search.html?query=${searchBoxVal}`);
+        window.location.replace(`../Apple-Reseller/search/search.html?query=${searchBoxVal}`);
         event.preventDefault();
     })
 
