@@ -16,7 +16,7 @@ $(document).ready(function () {
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">${result.replace(/\.\.\/(?:catalog|products|about|home)\/|\.html/g, '').replaceAll('-', ' ')}</h5>
+                        <h5 class="card-title">${result.replace(/\.\.\/((catalog|products|about|home)\/)*|\.html/g, '').replaceAll('-', ' ')}</h5>
                         <a href="${result.toLowerCase()}" class="btn btn-success">Go</a>
                     </div>
                 </div>
