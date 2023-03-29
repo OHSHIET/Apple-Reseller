@@ -1,7 +1,8 @@
 # Apple Reseller webpage
 This website was created as a final project for the web design course at Singidunum University.
 
-## About the website
+Among the site features are modern design and search by products.
+
 jQuery, Bootstrap, Popper.js and Swiper for sliders were used for this site. For the random cat fact I used [this site](https://catfact.ninja/).
 
 ## Rules for the website (provided by the professors)
